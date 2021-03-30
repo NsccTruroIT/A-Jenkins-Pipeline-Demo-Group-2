@@ -18,7 +18,7 @@ pipeline {
         CI = 'true'
       }
       steps {
-        echo 'BYPASS TEST'
+        sh './jenkins/scripts/test.sh'
       }
     }
 
